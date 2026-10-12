@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atomlens"
+version = "0.1.0"
+description = "Attribution probes for pretrained atomistic ML force fields."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ase>=3.22",
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "torch>=2.2,<2.14",
+]
+
+[project.optional-dependencies]
+models = [
+  "chgnet",
+  "mace-torch",
+]
+viz = [
+  "matplotlib>=3.5",
+  "plotly",
+]
+dev = [
+  "pytest",
+]
+
+[project.scripts]
+atomlens = "atomlens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

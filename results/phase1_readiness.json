@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "generated_at": "2026-09-16T22:36:57",
+  "checks": [
+    {
+      "name": "file:README.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "file:pyproject.toml",
+      "passed": true,
+      "detail": "pyproject.toml"
+    },
+    {
+      "name": "file:docs/project_detailed_notes.md",
+      "passed": true,
+      "detail": "docs/project_detailed_notes.md"
+    },
+    {
+      "name": "file:docs/literature_support.md",
+      "passed": true,
+      "detail": "docs/literature_support.md"
+    },
+    {
+      "name": "file:docs/phase1_protocol.md",
+      "passed": true,
+      "detail": "docs/phase1_protocol.md"
+    },
+    {
+      "name": "file:docs/artifact_index.md",
+      "passed": true,
+      "detail": "docs/artifact_index.md"
+    },
+    {
+      "name": "file:docs/remote_runbook.md",
+      "passed": true,
+      "detail": "docs/remote_runbook.md"
+    },
+    {
+      "name": "file:configs/phase1_smoke.yaml",
+      "passed": true,
+      "detail": "configs/phase1_smoke.yaml"
+    },
+    {
+      "name": "file:configs/phase1_remote_matrix.yaml",
+      "passed": true,
+      "detail": "configs/phase1_remote_matrix.yaml"
+    },
+    {
+      "name": "file:scripts/run_phase1_smoke.ps1",
+      "passed": true,
+      "detail": "scripts/run_phase1_smoke.ps1"
+    },
+    {
+      "name": "file:scripts/upload_phase1_package.ps1",
+      "passed": true,
+      "detail": "scripts/upload_phase1_package.ps1"
+    },
+    {
+      "name": "file:scripts/archive_remote_results.sh",
+      "passed": true,
+      "detail": "scripts/archive_remote_results.sh"
+    },
+    {
+      "name": "file:scripts/check_remote_gpu.sh",
+      "passed": true,
+      "detail": "scripts/check_remote_gpu.sh"
+    },
+    {
+      "name": "file:scripts/bootstrap_remote.sh",
+      "passed": true,
+      "detail": "scripts/bootstrap_remote.sh"
+    },
+    {
+      "name": "file:scripts/run_remote_model_smoke.sh",
+      "passed": true,
+      "detail": "scripts/run_remote_model_smoke.sh"
+    },
+    {
+      "name": "file:scripts/run_remote_parallel.sh",
+      "passed": true,
+      "detail": "scripts/run_remote_parallel.sh"
+    },
+    {
+      "name": "file:src/atomlens/attribution.py",
+      "passed": true,
+      "detail": "src/atomlens/attribution.py"
+    },
+    {
+      "name": "file:src/atomlens/compare.py",
+      "passed": true,
+      "detail": "src/atomlens/compare.py"
+    },
+    {
+      "name": "file:src/atomlens/export.py",
+      "passed": true,
+      "detail": "src/atomlens/export.py"
+    },
+    {
+      "name": "file:src/atomlens/models.py",
+      "passed": true,
+      "detail": "src/atomlens/models.py"
+    },
+    {
+      "name": "file:src/atomlens/plotting.py",
+      "passed": true,
+      "detail": "src/atomlens/plotting.py"
+    },
+    {
+      "name": "file:src/atomlens/reporting.py",
+      "passed": true,
+      "detail": "src/atomlens/reporting.py"
+    },
+    {
+      "name": "file:src/atomlens/validation.py",
+      "passed": true,
+      "detail": "src/atomlens/validation.py"
+    },
+    {
+      "name": "file:tests/test_attribution.py",
+      "passed": true,
+      "detail": "tests/test_attribution.py"
+    },
+    {
+      "name": "file:results/phase1_attribute_harmonic.json",
+      "passed": true,
+      "detail": "results/phase1_attribute_harmonic.json"
+    },
+    {
+      "name": "file:results/phase1_attribute_harmonic.png",
+      "passed": true,
+      "detail": "results/phase1_attribute_harmonic.png"
+    },
+    {
+      "name": "file:results/phase1_attribute_harmonic.extxyz",
+      "passed": true,
+      "detail": "results/phase1_attribute_harmonic.extxyz"
+    },
+    {
+      "name": "file:results/phase1_convergence_harmonic.json",
+      "passed": true,
+      "detail": "results/phase1_convergence_harmonic.json"
+    },
+    {
+      "name": "file:results/phase1_convergence_harmonic.png",
+      "passed": true,
+      "detail": "results/phase1_convergence_harmonic.png"
+    },
+    {
+      "name": "file:results/phase1_validation_harmonic.json",
+      "passed": true,
+      "detail": "results/phase1_validation_harmonic.json"
+    },
+    {
+      "name": "file:results/phase1_compare_self.json",
+      "passed": true,
+      "detail": "results/phase1_compare_self.json"
+    },
+    {
+      "name": "file:results/phase1_compare_self.png",
+      "passed": true,
+      "detail": "results/phase1_compare_self.png"
+    },
+    {
+      "name": "file:results/phase1_report.md",
+      "passed": true,
+      "detail": "results/phase1_report.md"
+    },
+    {
+      "name": "validation:phase1_harmonic",
+      "passed": true,
+      "detail": "results/phase1_validation_harmonic.json"
+    },
+    {
+      "name": "package:latest_zip",
+      "passed": true,
+      "detail": "D:\\26autumn\\srt\\dist\\atomlens_phase1_latest.zip"
+    },
+    {
+      "name": "tests:pytest",
+      "passed": true,
+      "detail": ".......                                                                  [100%]\n7 passed in 3.46s"
+    }
+  ]
+}

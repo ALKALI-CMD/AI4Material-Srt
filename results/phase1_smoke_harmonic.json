@@ -1,0 +1,37 @@
+{
+  "attribution_total": 0.00960000000000001,
+  "calculator": "harmonic",
+  "energy_delta": 0.009600000000000011,
+  "energy_end": 0.009600000000000011,
+  "energy_start": 0.0,
+  "ranking": [
+    {
+      "index": 3,
+      "symbol": "I",
+      "value": 0.0032000000000000045
+    },
+    {
+      "index": 4,
+      "symbol": "I",
+      "value": 0.0032000000000000045
+    },
+    {
+      "index": 2,
+      "symbol": "I",
+      "value": 0.0032
+    },
+    {
+      "index": 0,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 1,
+      "symbol": "Pb",
+      "value": -0.0
+    }
+  ],
+  "residual": -1.734723475976807e-18,
+  "steps": 65,
+  "structure_pair": "cspbi3_iodine_displacement"
+}

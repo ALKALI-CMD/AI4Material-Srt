@@ -1,0 +1,232 @@
+{
+  "atomic_sum": -113.40142440795898,
+  "calculator": "mace-mp",
+  "decomposition_residual": -2.6702880859375e-05,
+  "device": "cuda",
+  "energy_total": -113.40139770507812,
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "ranking": [
+    {
+      "index": 0,
+      "symbol": "Cs",
+      "value": -0.8923015594482422
+    },
+    {
+      "index": 5,
+      "symbol": "Cs",
+      "value": -0.8923015594482422
+    },
+    {
+      "index": 20,
+      "symbol": "Cs",
+      "value": -0.8923015594482422
+    },
+    {
+      "index": 25,
+      "symbol": "Cs",
+      "value": -0.8923013210296631
+    },
+    {
+      "index": 10,
+      "symbol": "Cs",
+      "value": -0.892301082611084
+    },
+    {
+      "index": 15,
+      "symbol": "Cs",
+      "value": -0.892301082611084
+    },
+    {
+      "index": 30,
+      "symbol": "Cs",
+      "value": -0.892301082611084
+    },
+    {
+      "index": 35,
+      "symbol": "Cs",
+      "value": -0.8923006057739258
+    },
+    {
+      "index": 1,
+      "symbol": "Pb",
+      "value": -0.8601112365722656
+    },
+    {
+      "index": 26,
+      "symbol": "Pb",
+      "value": -0.8601112365722656
+    },
+    {
+      "index": 6,
+      "symbol": "Pb",
+      "value": -0.8601107597351074
+    },
+    {
+      "index": 11,
+      "symbol": "Pb",
+      "value": -0.8601107597351074
+    },
+    {
+      "index": 16,
+      "symbol": "Pb",
+      "value": -0.8601107597351074
+    },
+    {
+      "index": 21,
+      "symbol": "Pb",
+      "value": -0.8601107597351074
+    },
+    {
+      "index": 36,
+      "symbol": "Pb",
+      "value": -0.8601107597351074
+    },
+    {
+      "index": 31,
+      "symbol": "Pb",
+      "value": -0.8601102828979492
+    },
+    {
+      "index": 37,
+      "symbol": "I",
+      "value": -0.34021472930908203
+    },
+    {
+      "index": 24,
+      "symbol": "I",
+      "value": -0.3402146100997925
+    },
+    {
+      "index": 2,
+      "symbol": "I",
+      "value": -0.34021449089050293
+    },
+    {
+      "index": 7,
+      "symbol": "I",
+      "value": -0.34021449089050293
+    },
+    {
+      "index": 13,
+      "symbol": "I",
+      "value": -0.34021449089050293
+    },
+    {
+      "index": 38,
+      "symbol": "I",
+      "value": -0.34021449089050293
+    },
+    {
+      "index": 39,
+      "symbol": "I",
+      "value": -0.34021449089050293
+    },
+    {
+      "index": 3,
+      "symbol": "I",
+      "value": -0.3402143716812134
+    },
+    {
+      "index": 4,
+      "symbol": "I",
+      "value": -0.3402143716812134
+    },
+    {
+      "index": 8,
+      "symbol": "I",
+      "value": -0.3402143716812134
+    },
+    {
+      "index": 28,
+      "symbol": "I",
+      "value": -0.3402143716812134
+    },
+    {
+      "index": 32,
+      "symbol": "I",
+      "value": -0.3402143716812134
+    },
+    {
+      "index": 33,
+      "symbol": "I",
+      "value": -0.3402143716812134
+    },
+    {
+      "index": 14,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 17,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 18,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 19,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 23,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 27,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 29,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 34,
+      "symbol": "I",
+      "value": -0.34021425247192383
+    },
+    {
+      "index": 9,
+      "symbol": "I",
+      "value": -0.3402141332626343
+    },
+    {
+      "index": 12,
+      "symbol": "I",
+      "value": -0.3402140140533447
+    },
+    {
+      "index": 22,
+      "symbol": "I",
+      "value": -0.3402140140533447
+    }
+  ],
+  "structure": "cspbi3_supercell"
+}

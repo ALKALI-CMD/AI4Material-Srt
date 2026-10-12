@@ -1,0 +1,235 @@
+{
+  "attribution_total": -0.7929776643715299,
+  "calculator": "chgnet",
+  "device": "cuda",
+  "energy_delta": -0.7930278778076172,
+  "energy_end": -123.11424255371094,
+  "energy_start": -122.32121467590332,
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "ranking": [
+    {
+      "index": 24,
+      "symbol": "I",
+      "value": -0.04956119019508721
+    },
+    {
+      "index": 29,
+      "symbol": "I",
+      "value": -0.04956118075388115
+    },
+    {
+      "index": 33,
+      "symbol": "I",
+      "value": -0.04956115965421605
+    },
+    {
+      "index": 39,
+      "symbol": "I",
+      "value": -0.04956115823962457
+    },
+    {
+      "index": 38,
+      "symbol": "I",
+      "value": -0.04956115320113581
+    },
+    {
+      "index": 34,
+      "symbol": "I",
+      "value": -0.04956114151088824
+    },
+    {
+      "index": 13,
+      "symbol": "I",
+      "value": -0.04956113110013075
+    },
+    {
+      "index": 18,
+      "symbol": "I",
+      "value": -0.04956112428148193
+    },
+    {
+      "index": 3,
+      "symbol": "I",
+      "value": -0.04956108235235464
+    },
+    {
+      "index": 8,
+      "symbol": "I",
+      "value": -0.04956107926886309
+    },
+    {
+      "index": 19,
+      "symbol": "I",
+      "value": -0.04956106586997974
+    },
+    {
+      "index": 14,
+      "symbol": "I",
+      "value": -0.04956106286595963
+    },
+    {
+      "index": 4,
+      "symbol": "I",
+      "value": -0.049561047496184785
+    },
+    {
+      "index": 23,
+      "symbol": "I",
+      "value": -0.04956103488406861
+    },
+    {
+      "index": 9,
+      "symbol": "I",
+      "value": -0.04956102951974698
+    },
+    {
+      "index": 28,
+      "symbol": "I",
+      "value": -0.049561023177926745
+    },
+    {
+      "index": 0,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 1,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 2,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 5,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 6,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 7,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 10,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 11,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 12,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 15,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 16,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 17,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 20,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 21,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 22,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 25,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 26,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 27,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 30,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 31,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 32,
+      "symbol": "I",
+      "value": -0.0
+    },
+    {
+      "index": 35,
+      "symbol": "Cs",
+      "value": -0.0
+    },
+    {
+      "index": 36,
+      "symbol": "Pb",
+      "value": -0.0
+    },
+    {
+      "index": 37,
+      "symbol": "I",
+      "value": -0.0
+    }
+  ],
+  "residual": 5.0213436087243046e-05,
+  "steps": 65,
+  "structure_pair": "cspbi3_tilt"
+}

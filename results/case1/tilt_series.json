@@ -1,0 +1,111 @@
+{
+  "angles": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0
+  ],
+  "device": "cuda",
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "series": {
+    "chgnet": [
+      {
+        "energy_per_atom": -3.058030366897583,
+        "max_force": 3.907287915706424e-06,
+        "tilt_deg": 0.0
+      },
+      {
+        "energy_per_atom": -3.0589828491210938,
+        "max_force": 0.044712040579033704,
+        "tilt_deg": 2.0
+      },
+      {
+        "energy_per_atom": -3.0618696212768555,
+        "max_force": 0.08367590606344306,
+        "tilt_deg": 4.0
+      },
+      {
+        "energy_per_atom": -3.06620454788208,
+        "max_force": 0.1142020076569472,
+        "tilt_deg": 6.0
+      },
+      {
+        "energy_per_atom": -3.071838140487671,
+        "max_force": 0.13942974806205852,
+        "tilt_deg": 8.0
+      },
+      {
+        "energy_per_atom": -3.0778560638427734,
+        "max_force": 0.1372631788266099,
+        "tilt_deg": 10.0
+      },
+      {
+        "energy_per_atom": -3.0834274291992188,
+        "max_force": 0.1192736029627113,
+        "tilt_deg": 12.0
+      }
+    ],
+    "mace-mp": [
+      {
+        "energy_per_atom": -2.835034942626953,
+        "max_force": 2.700681054316015e-06,
+        "tilt_deg": 0.0
+      },
+      {
+        "energy_per_atom": -2.835759162902832,
+        "max_force": 0.03280209749942137,
+        "tilt_deg": 2.0
+      },
+      {
+        "energy_per_atom": -2.837874984741211,
+        "max_force": 0.0629840046175928,
+        "tilt_deg": 4.0
+      },
+      {
+        "energy_per_atom": -2.841172790527344,
+        "max_force": 0.08637850731822125,
+        "tilt_deg": 6.0
+      },
+      {
+        "energy_per_atom": -2.845287895202637,
+        "max_force": 0.10081854462854951,
+        "tilt_deg": 8.0
+      },
+      {
+        "energy_per_atom": -2.849735069274902,
+        "max_force": 0.10092742741151996,
+        "tilt_deg": 10.0
+      },
+      {
+        "energy_per_atom": -2.8536420822143556,
+        "max_force": 0.07534169406545664,
+        "tilt_deg": 12.0
+      }
+    ]
+  },
+  "structure": "cspbi3_tilt_series"
+}

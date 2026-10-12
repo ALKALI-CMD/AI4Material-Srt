@@ -1,0 +1,77 @@
+{
+  "chemical_potential": "mu_I = E(I2)/2 (iodine-rich limit)",
+  "device": "cuda",
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "results": {
+    "chgnet": [
+      {
+        "energy_I2_eV": -3.066904067993164,
+        "energy_perfect_eV": -122.32121467590332,
+        "energy_vacancy_eV": -119.56418037414551,
+        "formation_energy_I_rich_eV": 1.2235822677612305,
+        "formation_energy_crude_scaling_eV": -0.3009960651397705,
+        "mu_I_eV": -1.533452033996582,
+        "n_atoms_perfect": 40,
+        "n_atoms_vacancy": 39,
+        "n_supercell": 2
+      },
+      {
+        "energy_I2_eV": -3.066904067993164,
+        "energy_perfect_eV": -978.5694885253906,
+        "energy_vacancy_eV": -975.8305118083954,
+        "formation_energy_I_rich_eV": 1.2055246829986572,
+        "formation_energy_crude_scaling_eV": -0.31905293464660645,
+        "mu_I_eV": -1.533452033996582,
+        "n_atoms_perfect": 320,
+        "n_atoms_vacancy": 319,
+        "n_supercell": 4
+      }
+    ],
+    "mace-mp": [
+      {
+        "energy_I2_eV": -2.601700782775879,
+        "energy_perfect_eV": -113.40139770507812,
+        "energy_vacancy_eV": -111.05044555664062,
+        "formation_energy_I_rich_eV": 1.0501017570495605,
+        "formation_energy_crude_scaling_eV": -0.48408279418946165,
+        "mu_I_eV": -1.3008503913879395,
+        "n_atoms_perfect": 40,
+        "n_atoms_vacancy": 39,
+        "n_supercell": 2
+      },
+      {
+        "energy_I2_eV": -2.601700782775879,
+        "energy_perfect_eV": -907.211669921875,
+        "energy_vacancy_eV": -904.8614501953125,
+        "formation_energy_I_rich_eV": 1.0493693351745605,
+        "formation_energy_crude_scaling_eV": -0.48481674194340485,
+        "mu_I_eV": -1.3008503913879395,
+        "n_atoms_perfect": 320,
+        "n_atoms_vacancy": 319,
+        "n_supercell": 4
+      }
+    ]
+  },
+  "structure": "cspbi3_iodine_vacancy"
+}

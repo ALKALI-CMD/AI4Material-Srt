@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "name": "attribution_residual",
+      "passed": true,
+      "threshold": 1e-06,
+      "value": 1.734723475976807e-18
+    },
+    {
+      "name": "attribution_ranking_nonempty",
+      "passed": true,
+      "threshold": 1,
+      "value": 5
+    },
+    {
+      "name": "convergence_rows_nonempty",
+      "passed": true,
+      "threshold": 1,
+      "value": 4
+    },
+    {
+      "name": "convergence_max_residual",
+      "passed": true,
+      "threshold": 1e-06,
+      "value": 1.734723475976807e-18
+    }
+  ],
+  "max_residual": 1e-06,
+  "passed": true
+}

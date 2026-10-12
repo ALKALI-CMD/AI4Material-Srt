@@ -1,0 +1,22 @@
+{
+  "cuda_visible_devices": null,
+  "packages": {
+    "ase": "3.29.0",
+    "atomlens": "0.1.0",
+    "chgnet": null,
+    "mace-torch": null,
+    "numpy": "2.4.2",
+    "plotly": null,
+    "scipy": "1.18.1",
+    "torch": "2.13.0"
+  },
+  "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+  "python": "/root/miniconda3/bin/python",
+  "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+  "torch": {
+    "available": true,
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "version": "2.13.0+cu130"
+  }
+}

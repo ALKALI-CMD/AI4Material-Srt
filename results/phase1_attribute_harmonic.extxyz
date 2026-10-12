@@ -1,0 +1,7 @@
+5
+Lattice="6.29 0.0 0.0 0.0 6.29 0.0 0.0 0.0 6.29" Properties=species:S:1:pos:R:3:atomlens_attribution:R:1 atomlens_calculator=harmonic atomlens_structure_pair=cspbi3_iodine_displacement atomlens_energy_delta=0.009600000000000011 atomlens_residual=-1.734723475976807e-18 pbc="T T T"
+Cs       0.00000000       0.00000000       0.00000000      -0.00000000
+Pb       3.14500000       3.14500000       3.14500000      -0.00000000
+I        3.14500000       3.14500000       0.08000000       0.00320000
+I        3.06500000       0.00000000       3.14500000       0.00320000
+I        0.00000000       3.22500000       3.14500000       0.00320000

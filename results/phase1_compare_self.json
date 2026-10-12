@@ -1,0 +1,48 @@
+{
+  "atom_count": 5,
+  "left_calculator": "harmonic",
+  "left_energy_delta": 0.009600000000000011,
+  "pearson": 1.0,
+  "right_calculator": "harmonic",
+  "right_energy_delta": 0.009600000000000011,
+  "rows": [
+    {
+      "abs_difference": 0.0,
+      "difference": 0.0,
+      "index": 0,
+      "left": -0.0,
+      "right": -0.0
+    },
+    {
+      "abs_difference": 0.0,
+      "difference": 0.0,
+      "index": 1,
+      "left": -0.0,
+      "right": -0.0
+    },
+    {
+      "abs_difference": 0.0,
+      "difference": 0.0,
+      "index": 2,
+      "left": 0.0032,
+      "right": 0.0032
+    },
+    {
+      "abs_difference": 0.0,
+      "difference": 0.0,
+      "index": 3,
+      "left": 0.0032000000000000045,
+      "right": 0.0032000000000000045
+    },
+    {
+      "abs_difference": 0.0,
+      "difference": 0.0,
+      "index": 4,
+      "left": 0.0032000000000000045,
+      "right": 0.0032000000000000045
+    }
+  ],
+  "sign_agreement": 1.0,
+  "spearman": 0.9999999999999999,
+  "structure_pair": "cspbi3_iodine_displacement"
+}

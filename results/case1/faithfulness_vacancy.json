@@ -1,0 +1,66 @@
+{
+  "calculator": "mace-mp",
+  "device": "cuda",
+  "energy_full": -111.05047382597107,
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "n_pairs": 290,
+  "rows": [
+    {
+      "delta_bottom": 0.011359634370307958,
+      "delta_random": 0.382184967727747,
+      "delta_random_std": 0.26759439368543825,
+      "delta_top": 3.454121848478934,
+      "k": 5
+    },
+    {
+      "delta_bottom": 0.02265643446736476,
+      "delta_random": 0.6336948803257542,
+      "delta_random_std": 0.063343258646596,
+      "delta_top": 8.24543600642015,
+      "k": 10
+    },
+    {
+      "delta_bottom": 0.04512730757150507,
+      "delta_random": 1.5657263129929107,
+      "delta_random_std": 0.4412947886830931,
+      "delta_top": 11.768456925234972,
+      "k": 20
+    },
+    {
+      "delta_bottom": 0.09992583130586752,
+      "delta_random": 3.726255141351538,
+      "delta_random_std": 0.2847789603304177,
+      "delta_top": 33.335828838995795,
+      "k": 40
+    },
+    {
+      "delta_bottom": 0.42810574937075785,
+      "delta_random": 7.626340230345645,
+      "delta_random_std": 1.037285794422476,
+      "delta_top": 51.26790763887723,
+      "k": 80
+    }
+  ],
+  "structure": "cspbi3_iodine_vacancy"
+}

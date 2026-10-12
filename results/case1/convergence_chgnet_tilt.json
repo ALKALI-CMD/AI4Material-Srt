@@ -1,0 +1,63 @@
+{
+  "calculator": "chgnet",
+  "device": "cuda",
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "rows": [
+    {
+      "attribution_total": -0.7922730392687021,
+      "energy_delta": -0.7930278778076172,
+      "max_abs_atomic": 0.04951715060860277,
+      "residual": 0.0007548385389151147,
+      "steps": 17
+    },
+    {
+      "attribution_total": -0.7928367354568642,
+      "energy_delta": -0.7930278778076172,
+      "max_abs_atomic": 0.04955238100942628,
+      "residual": 0.00019114235075301522,
+      "steps": 33
+    },
+    {
+      "attribution_total": -0.7929776852009921,
+      "energy_delta": -0.7930278778076172,
+      "max_abs_atomic": 0.04956119431965451,
+      "residual": 5.0192606625087954e-05,
+      "steps": 65
+    },
+    {
+      "attribution_total": -0.7930130458237034,
+      "energy_delta": -0.7930278778076172,
+      "max_abs_atomic": 0.04956339776045835,
+      "residual": 1.4831983913832225e-05,
+      "steps": 129
+    }
+  ],
+  "steps": [
+    17,
+    33,
+    65,
+    129
+  ],
+  "structure_pair": "cspbi3_tilt"
+}

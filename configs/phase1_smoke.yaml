@@ -1,0 +1,23 @@
+project: atomlens
+stage: phase1_smoke
+gpu_policy:
+  max_gpus_per_process: 2
+  default_gpus_per_process: 1
+models:
+  - name: mace_mp
+    adapter: atomlens.models:mace_mp_calculator
+    device: cuda
+    notes: compare deltas within MACE, not raw totals against CHGNet
+  - name: chgnet
+    adapter: atomlens.models:chgnet_calculator
+    device: cuda
+    notes: compare deltas within CHGNet, not raw totals against MACE
+structures:
+  - diamond_si
+  - cubic_cspbi3
+checks:
+  - energy_force_smoke
+  - path_integral_completeness
+  - translation_invariance
+  - rotation_covariance
+  - atom_permutation_sanity

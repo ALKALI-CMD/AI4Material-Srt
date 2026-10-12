@@ -1,0 +1,56 @@
+{
+  "calculator": "mace-mp",
+  "device": "cuda",
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "report": {
+    "jaccard_per_noise": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "key_overlap_per_noise": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_jaccard": 1.0,
+    "mean_spearman": 0.9423413118305934,
+    "n_noises": 5,
+    "sigma": 0.03,
+    "spearman_per_noise": [
+      0.9263501392146268,
+      0.9523586537615608,
+      0.9529682283212547,
+      0.9412847159271241,
+      0.9387448219284
+    ],
+    "topk": 10
+  },
+  "structure": "cspbi3_iodine_vacancy",
+  "what": "atoms"
+}

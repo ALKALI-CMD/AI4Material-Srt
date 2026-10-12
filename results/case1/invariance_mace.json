@@ -1,0 +1,39 @@
+{
+  "calculator": "mace-mp",
+  "device": "cuda",
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "report": {
+    "energy_reference": -14.175180435180664,
+    "n_atoms": 5,
+    "passed": true,
+    "permutation_energy_error": 1.9073486328125e-06,
+    "permutation_force_error": 1.638391573521858e-07,
+    "rotation_energy_error": 1.9073486328125e-06,
+    "rotation_force_error": 1.6425889565847873e-07,
+    "supercell_relative_energy_error": 4.0366653000312034e-07,
+    "translation_energy_error": 0.0,
+    "translation_force_error": 1.601874828338623e-07
+  },
+  "structure": "cubic_cspbi3"
+}

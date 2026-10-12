@@ -1,0 +1,34 @@
+project: atomlens
+stage: phase1_remote
+gpu_policy:
+  max_gpus_per_process: 2
+  recommended_gpus_per_process: 1
+  allow_parallel_processes: true
+jobs:
+  - name: mace_mp_cspbi3
+    calculator: mace-mp
+    structure: cubic_cspbi3
+    default_gpu: 0
+    outputs:
+      - results/mace-mp_cspbi3_path.json
+      - results/mace-mp_cspbi3_convergence.json
+      - results/mace-mp_cspbi3_validation.json
+      - results/mace-mp_cspbi3_path.png
+      - results/mace-mp_cspbi3_convergence.png
+      - results/mace-mp_cspbi3_path.extxyz
+      - results/mace-mp_cspbi3_report.md
+  - name: chgnet_cspbi3
+    calculator: chgnet
+    structure: cubic_cspbi3
+    default_gpu: 1
+    outputs:
+      - results/chgnet_cspbi3_path.json
+      - results/chgnet_cspbi3_convergence.json
+      - results/chgnet_cspbi3_validation.json
+      - results/chgnet_cspbi3_path.png
+      - results/chgnet_cspbi3_convergence.png
+      - results/chgnet_cspbi3_path.extxyz
+      - results/chgnet_cspbi3_report.md
+comparison_outputs:
+  - results/mace-mp_vs_chgnet_cspbi3_comparison.json
+  - results/mace-mp_vs_chgnet_cspbi3_comparison.png

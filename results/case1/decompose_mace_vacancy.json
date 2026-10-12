@@ -1,0 +1,227 @@
+{
+  "atomic_sum": -111.05047750473022,
+  "calculator": "mace-mp",
+  "decomposition_residual": -3.1948089599609375e-05,
+  "device": "cuda",
+  "energy_total": -111.05044555664062,
+  "environment": {
+    "cuda_visible_devices": "0",
+    "packages": {
+      "ase": "3.26.0",
+      "atomlens": "0.1.0",
+      "chgnet": "0.4.0",
+      "mace-torch": "0.3.10",
+      "numpy": "1.26.4",
+      "plotly": "7.1.0",
+      "scipy": "1.17.1",
+      "torch": "2.5.1+cu121"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.35",
+    "python": "/root/miniconda3/bin/python",
+    "python_version": "3.12.1 | packaged by Anaconda, Inc. | (main, Jan 19 2024, 15:51:05) [GCC 11.2.0]",
+    "torch": {
+      "available": true,
+      "cuda_available": true,
+      "cuda_device_count": 1,
+      "version": "2.5.1+cu121"
+    }
+  },
+  "ranking": [
+    {
+      "index": 4,
+      "symbol": "Cs",
+      "value": -0.8905930519104004
+    },
+    {
+      "index": 24,
+      "symbol": "Cs",
+      "value": -0.8905925750732422
+    },
+    {
+      "index": 14,
+      "symbol": "Cs",
+      "value": -0.890592098236084
+    },
+    {
+      "index": 34,
+      "symbol": "Cs",
+      "value": -0.890592098236084
+    },
+    {
+      "index": 30,
+      "symbol": "Pb",
+      "value": -0.8600912094116211
+    },
+    {
+      "index": 35,
+      "symbol": "Pb",
+      "value": -0.8600912094116211
+    },
+    {
+      "index": 25,
+      "symbol": "Pb",
+      "value": -0.8576879501342773
+    },
+    {
+      "index": 10,
+      "symbol": "Pb",
+      "value": -0.8576874732971191
+    },
+    {
+      "index": 20,
+      "symbol": "Pb",
+      "value": -0.8576874732971191
+    },
+    {
+      "index": 15,
+      "symbol": "Pb",
+      "value": -0.8576869964599609
+    },
+    {
+      "index": 0,
+      "symbol": "Cs",
+      "value": -0.826052188873291
+    },
+    {
+      "index": 9,
+      "symbol": "Cs",
+      "value": -0.8260517120361328
+    },
+    {
+      "index": 19,
+      "symbol": "Cs",
+      "value": -0.8260517120361328
+    },
+    {
+      "index": 29,
+      "symbol": "Cs",
+      "value": -0.8260512351989746
+    },
+    {
+      "index": 1,
+      "symbol": "Pb",
+      "value": -0.6469125747680664
+    },
+    {
+      "index": 5,
+      "symbol": "Pb",
+      "value": -0.6469111442565918
+    },
+    {
+      "index": 6,
+      "symbol": "I",
+      "value": -0.380079984664917
+    },
+    {
+      "index": 2,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 3,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 7,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 12,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 17,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 23,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 28,
+      "symbol": "I",
+      "value": -0.3756985664367676
+    },
+    {
+      "index": 8,
+      "symbol": "I",
+      "value": -0.3756980895996094
+    },
+    {
+      "index": 11,
+      "symbol": "I",
+      "value": -0.3414222002029419
+    },
+    {
+      "index": 21,
+      "symbol": "I",
+      "value": -0.3414222002029419
+    },
+    {
+      "index": 16,
+      "symbol": "I",
+      "value": -0.3408474922180176
+    },
+    {
+      "index": 26,
+      "symbol": "I",
+      "value": -0.3408474922180176
+    },
+    {
+      "index": 38,
+      "symbol": "I",
+      "value": -0.3408188819885254
+    },
+    {
+      "index": 18,
+      "symbol": "I",
+      "value": -0.34081876277923584
+    },
+    {
+      "index": 27,
+      "symbol": "I",
+      "value": -0.3408186435699463
+    },
+    {
+      "index": 33,
+      "symbol": "I",
+      "value": -0.3408186435699463
+    },
+    {
+      "index": 37,
+      "symbol": "I",
+      "value": -0.3408186435699463
+    },
+    {
+      "index": 13,
+      "symbol": "I",
+      "value": -0.34081852436065674
+    },
+    {
+      "index": 32,
+      "symbol": "I",
+      "value": -0.34081852436065674
+    },
+    {
+      "index": 22,
+      "symbol": "I",
+      "value": -0.3408184051513672
+    },
+    {
+      "index": 31,
+      "symbol": "I",
+      "value": -0.34078848361968994
+    },
+    {
+      "index": 36,
+      "symbol": "I",
+      "value": -0.34021472930908203
+    }
+  ],
+  "structure": "cspbi3_iodine_vacancy"
+}

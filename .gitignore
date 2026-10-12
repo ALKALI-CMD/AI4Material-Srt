@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+results/*.tmp
+
+# Local credentials and generated packaging
+ssh_worker_rsa_key
+*.pem
+.env
+.env.*
+*.zip
+logs/
