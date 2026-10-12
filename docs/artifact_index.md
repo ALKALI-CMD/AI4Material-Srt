@@ -1,38 +1,14 @@
-# Atomlens Phase 1 Artifact Index
+# 实验成果索引
 
-This index lists the current startup package for the SRT project.
+项目状态和数值解释见[实验成果报告](实验成果报告.md)，操作说明见[中文指南](中文指南.md)。
 
-## Code
+| 目录 | 成果 | 记录 |
+|---|---|---|
+| `results/case1/` | 路径归因、MACE 边门控、对称性与扰动检查 | [第一期](../results/case1/RESULTS.md) |
+| `results/case2/` | CHGNet 门控、共同边差分、固定参考形成能、相关性 | [第二期](../results/case2/RESULTS.md) |
+| `results/case3/` | 两组通道门控探索输出，待复核 | [第三期](../results/case3/RESULTS.md) |
+| `results/phase1_*` | 早期 harmonic 计算器的功能验证与打包自检 | [早期报告](../results/phase1_report.md) |
 
-- `src/atomlens/attribution.py`: coordinate-path force-integration attribution.
-- `src/atomlens/models.py`: MACE-MP and CHGNet ASE calculator adapters.
-- `src/atomlens/validation.py`: pass/fail checks for attribution and convergence outputs.
-- `src/atomlens/compare.py`: model-to-model attribution comparison.
-- `src/atomlens/export.py`: extxyz export with `atomlens_attribution` atom property.
-- `src/atomlens/plotting.py`: PNG plots for attribution, convergence, and model comparison.
-- `src/atomlens/reporting.py`: Markdown report generation.
+`src/atomlens/` 保存实现，`tests/` 保存基础测试，`scripts/run_case1.sh` 和 `scripts/run_case2.sh` 保存前两期运行步骤。第三期尚无一键运行脚本。包版本记录在 `results/case1/manifest.json`，模型权重校验值尚未记录。
 
-## Local Evidence
-
-- `results/phase1_attribute_harmonic.json`: local attribution smoke result.
-- `results/phase1_convergence_harmonic.json`: quadrature convergence result.
-- `results/phase1_validation_harmonic.json`: machine-readable validation result.
-- `results/phase1_report.md`: readable report draft.
-- `results/phase1_attribute_harmonic.extxyz`: structure file with attribution values.
-- `results/phase1_compare_self.json`: comparison command smoke result.
-
-## Remote Execution
-
-- `scripts/run_remote_model_smoke.sh`: guarded single-model GPU run.
-- `scripts/check_remote_gpu.sh`: remote CUDA and GPU visibility preflight.
-- `scripts/bootstrap_remote.sh`: server-side setup and harmonic smoke bootstrap.
-- `scripts/upload_phase1_package.ps1`: Windows-side SSH upload and bootstrap helper.
-- `scripts/archive_remote_results.sh`: remote results/logs archive helper.
-- `scripts/run_remote_parallel.sh`: parallel MACE-MP and CHGNet run, one visible GPU per child process.
-- `configs/phase1_remote_matrix.yaml`: expected remote job matrix and output list.
-- `docs/remote_runbook.md`: upload, setup, preflight, run, and validation checklist.
-
-## Readiness
-
-- `scripts/check_phase1_ready.ps1`: local startup-package self-check.
-- `results/phase1_readiness.json`: latest self-check output.
+旧的 phase1 readiness 输出只反映当时的启动包检查，不是整个 SRT 项目的验收结果。

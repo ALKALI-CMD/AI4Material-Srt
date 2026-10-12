@@ -2,36 +2,39 @@
 
 `atomlens` starts the SRT project from the prior proposal: interpretable analysis of pretrained atomistic machine-learning force fields.
 
-> **中文文档**:请先读 [docs/中文指南.md](docs/中文指南.md) —— 它用通俗的语言解释了
-> 项目在做什么、每个方法(边门控/路径积分/通道分析)是什么意思、结果怎么读。
-> 一键复现全部实验:`bash scripts/run_case1.sh`。
+## 中文阅读入口与项目状态
+
+- [实验成果报告](docs/实验成果报告.md)：完成情况、主要数据、图表与尚未解决的问题。
+- [中文使用说明](docs/中文指南.md)：方法解释和运行步骤。
+- [第一期记录](results/case1/RESULTS.md)、[第二期记录](results/case2/RESULTS.md)、[第三期记录](results/case3/RESULTS.md)。
+
+目前可用于阶段汇报，尚未完成全部研究验证。前两期已有主要实验输出；第三期通道门控仍在复核。CHGNet 忠实性的能量口径、MACE 通道切片、物理参照与模型权重记录需要补齐。下面列出已实现的功能，不表示每项研究结论均已验证。
 
 ## What is implemented (phase 1 + phase 2 + phase 3)
 
 - **Structures**: cubic CsPbI3, n x n x n supercells (2x2x2 and 4x4x4 used),
   checkerboard octahedral tilting, one-iodine vacancy, reproducible thermal
   noise (`atomlens.structures`).
-- **Models**: pretrained MACE-MP ("small") and CHGNet with pinned versions;
+- **Models**: pretrained MACE-MP ("small") and CHGNet with package versions recorded;
   per-atom energy decomposition for both (`atomlens decompose`).
 - **Method A — structure-path integrated attribution**: force integration along a
   physical path (octahedral tilt), for both models (`atomlens attribute`).
 - **Method B — symmetry-preserving edge gating (core)**: per-edge gates on the
   interaction messages for **both** MACE (conv_tp output) and CHGNet
-  (bond_weights), integrated-gradients attribution with an exact completeness
+  (bond_weights), integrated-gradients attribution with a numerical completeness
   residual, leave-one-out ablation cross-check, top-k faithfulness curves
   against random/bottom controls (`atomlens gating`, `atomlens faithfulness`).
 - **Differential gating**: vacancy minus perfect, aligned by canonical bond keys;
   the interventional check gates the same bonds in both structures and scores
   |dE_vac - dE_perf| (`atomlens diff-gating`).
 - **Formation energy**: iodine vacancy formation energy with an explicit I2
-  chemical potential, supercell-size converged (2x2x2 vs 4x4x4)
+  chemical potential, compared at two unrelaxed supercell sizes (2x2x2 vs 4x4x4)
   (`atomlens formation`, `scripts/analyze_vacancy.py`).
 - **Method D — irreducible-channel diagnostics**: per-edge l=0..3 message channel
   norms and per-layer node-feature norms along the tilt series (`atomlens channels`).
-- **Internal vs interventional correlation**: per-edge Spearman between gating
-  attribution and message/channel norms — overall message norm tracks the
-  intervention poorly (~0.55, worse than bond length), while specific channels
-  (layer-1 l2: 0.91-0.94) track it closely (`atomlens correlation`).
+- **Internal vs interventional correlation**: recorded MACE message-norm and
+  channel statistics against edge attribution. Angular-channel slicing and
+  interpretation remain under review; see the experiment report.
 - **Evaluation**: translation/rotation/permutation/supercell invariance
   (`atomlens invariance`), rotation consistency of the edge attribution
   (machine-precision), stability under thermal noise via Spearman/Jaccard
@@ -115,4 +118,4 @@ Package the current phase for upload:
 - `configs/`: experiment configs.
 - `docs/`: project notes, literature support, and run protocol.
 - `scripts/`: local and Volcengine helper scripts.
-- `results/`: generated outputs, kept out of source control unless curated.
+- `results/`: committed experiment data, figures, and phase records.
